@@ -1,0 +1,35 @@
+.nav {
+    background-color: rgba(12, 13, 46, 0.9);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 82px;
+    position: absolute;
+    width: 100%;
+
+    .logo  {
+        margin-left: 43px;
+    }
+
+    .nav_row {
+        display: inherit;
+        margin-right: 43px;
+    }
+    
+    .nav_list {
+        display: flex;
+        align-items: center;
+        font-size: 18px;
+        line-height: 20px;
+
+        li {
+            margin-right: 25px;
+            a:hover {
+                color: #189CE8;
+            }
+        }
+    }
+    
+}
+
+

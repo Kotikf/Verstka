@@ -1,0 +1,51 @@
+.mobile_friend {
+    height: 842px;
+    background-color: #010225;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .mobile_info {
+        margin-left: 86px;
+        text-align: left;
+        display: block;
+        width: 617px;
+
+        .mini_info {
+            display: inline-block;
+            width: 269px;
+            & > img,span,p {
+                display: block;
+            }
+           
+        }
+
+        .mobile_info:nth-child(4) {
+            margin-right: 56px;
+        }
+
+        .points {
+            position: relative;
+            top: 38px;
+            right: 30px;
+        }
+    
+        .span1 {
+            color: #159BE8;
+            margin-bottom: 28px;
+            display: inherit;
+        }
+
+        .span2 {
+            display: inherit;
+            font-size: 40px;
+            line-height: 54px;
+            width: 456px;
+        }
+
+        p {
+            font-size: 12px;
+            line-height: 30px;
+        }
+    }
+}

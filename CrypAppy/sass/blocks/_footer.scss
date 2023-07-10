@@ -1,0 +1,51 @@
+.footer {
+    height: 583px;
+    background-color: #0C0D2E;
+    width: 100%;
+    text-align: center;
+    & > img {
+        
+        margin: 60px auto;
+        margin-bottom: 20px;
+    }
+    & > span {
+        display: block;
+        margin: 20px auto;
+        font-size: 30px;
+        line-height: 42px;
+    }
+
+    .social_net {
+        width: 150px;
+        display: flex;
+        justify-content: space-around;
+        margin: 0 auto;
+    }
+
+    p {
+        font-size: 24px;
+        line-height: 36px;
+        display: block;
+        margin: 0 auto;
+        margin-top: 40px;
+        margin-bottom: 10px;
+    }
+    & > input {
+        width: 400px;
+        height: 48px;
+        background-color: #010225;
+        border: 2px solid #282B53;
+        border-radius: 1px;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 52px;
+        color: white;
+        text-align: center;
+    }
+    .foote_span {
+        font-size: 18px;
+        line-height: 20px;
+        margin-top: 68px;
+        margin-bottom: 0;
+    }
+}

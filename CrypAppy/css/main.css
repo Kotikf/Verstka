@@ -385,7 +385,9 @@ button:active {
   background-color: #212250;
   position: relative;
   transition: 0.5s;
-  appearance: none;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
   margin: 0 15px;
 }
 .main_price .container .switch input[type=checkbox]::after {
@@ -538,4 +540,4 @@ button:active {
   line-height: 20px;
   margin-top: 68px;
   margin-bottom: 0;
-}
+}/*# sourceMappingURL=main.css.map */
