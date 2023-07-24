@@ -1,0 +1,71 @@
+{% extends 'main/layout.html' %}
+{% block title %}Работы{% endblock %}
+
+{% block content %}
+    <div class="wrapper">
+        <div class="child">
+            <a href="{% url 'crypappy' %}">
+                <img src="../static/img/crypappy.png" alt="картинка проекта">
+            </a><span>Крипто приложение<br>CrypAppy</span>
+            <p>Вёрстка осуществлялась по макету figma.</p>
+            <a href="https://github.com/Kotikf/Verstka/tree/main/CrypAppy" class="info">
+                <img src="../static/svg/github.svg" alt="" class="info">
+            </a>
+        </div> <!-- img 100x250 -->
+
+        <div class="child">
+            <a href="{% url 'smoothie' %}">
+                <img src="../static/img/smoothie.png" alt="картинка проекта">
+            </a>
+            <span>Фруктовыe коктейли<br>Smoothie</span>
+            <p>Вёрстка осуществлялась по макету figma.</p>
+            <a href="https://github.com/Kotikf/Verstka/tree/main/Smoothie" class="info">
+                <img src="../static/svg/github.svg" alt="" class="info">
+            </a>
+        </div>
+
+        <div class="child">
+            <a href="{% url 'landguru' %}">
+                <img src="../static/img/landguru.png" alt="картинка проекта">
+            </a>
+            <span>Крипто приложение<br>Landguru</span>
+            <p>Вёрстка осуществлялась по макету figma.</p>
+            <a href="https://github.com/Kotikf/Verstka/tree/main/Landguru" class="info">
+                <img src="../static/svg/github.svg" alt="" class="info">
+            </a>
+        </div>
+
+        <div class="child">
+            <a href="https://github.com/Kotikf/cryptographer">
+                <img src="../static/img/python_icon.png" alt="картинка проекта">
+            </a>
+            <span>Программа для шифрования файлов </span>
+            <p>Написана на языке Python с использованием графического интерфейса Pyqt5</p><p>Позволяет шифровать фалы симметричным алгоритмом блочного шифрования</p>
+        </div>
+
+        <div class="child">
+            <a href="https://github.com/Kotikf/converter_mp4_mp3">
+                <img src="../static/img/python_icon.png" alt="картинка проекта">
+            </a>
+            <span>Конвертер<br>аудио в видео</span>
+            <p>Написан на языке Python с использованием графического интерфейса Pyqt5</p><p>Позволяет извлечь аудио из видео</p>
+        </div>
+
+        <div class="child">
+            <a href="">
+                <img src="../static/img/python_icon.png" alt="картинка проекта">
+            </a>
+            <span>работа</span>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur fugiat sit id cum.</p>
+        </div>
+
+        <div class="child">
+            <a href="">
+                <img src="../static/img/python_icon.png" alt="картинка проекта">
+            </a>
+            <span>работа</span>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur fugiat sit id cum.</p>
+            <a href="" class="info"><img src="../static/svg/github.svg" alt="" class="info"></a>
+        </div>
+    </div>
+{% endblock %}
